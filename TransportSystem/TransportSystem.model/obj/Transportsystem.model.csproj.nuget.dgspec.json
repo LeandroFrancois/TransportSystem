@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leandro estudo\\Music\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj": {}
+    "C:\\Users\\leandro estudo\\Videos\\TransportSystem\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leandro estudo\\Music\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj": {
+    "C:\\Users\\leandro estudo\\Videos\\TransportSystem\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leandro estudo\\Music\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj",
+        "projectUniqueName": "C:\\Users\\leandro estudo\\Videos\\TransportSystem\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj",
         "projectName": "Transportsystem.model",
-        "projectPath": "C:\\Users\\leandro estudo\\Music\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj",
+        "projectPath": "C:\\Users\\leandro estudo\\Videos\\TransportSystem\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj",
         "packagesPath": "C:\\Users\\leandro estudo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leandro estudo\\Music\\TransportSystem\\TransportSystem.model\\obj\\",
+        "outputPath": "C:\\Users\\leandro estudo\\Videos\\TransportSystem\\TransportSystem\\TransportSystem.model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leandro estudo\\AppData\\Roaming\\NuGet\\NuGet.Config"
