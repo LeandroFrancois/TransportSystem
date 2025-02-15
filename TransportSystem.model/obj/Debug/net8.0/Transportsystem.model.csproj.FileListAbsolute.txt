@@ -1,0 +1,12 @@
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\bin\Debug\net8.0\Transportsystem.model.deps.json
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\bin\Debug\net8.0\Transportsystem.model.dll
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\bin\Debug\net8.0\Transportsystem.model.pdb
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\Transportsystem.model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\Transportsystem.model.AssemblyInfoInputs.cache
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\Transportsystem.model.AssemblyInfo.cs
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\Transportsystem.model.csproj.CoreCompileInputs.cache
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\Transportsystem.model.sourcelink.json
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\Transportsystem.model.dll
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\refint\Transportsystem.model.dll
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\Transportsystem.model.pdb
+C:\Users\gt3zi\OneDrive\Área de Trabalho\TransportSystem\TransportSystem.model\obj\Debug\net8.0\ref\Transportsystem.model.dll
