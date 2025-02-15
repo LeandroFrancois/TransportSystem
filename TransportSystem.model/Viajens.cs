@@ -58,7 +58,7 @@ public class Viagem
 
     public override string ToString()
     {
-        return $"[Motorista: {Motorista?.Nome}, Veiculo: {Veiculo?.model}, Partida: {DataHoraPartida}, Chegada: {DataHoraChegada}, Status: {Status}, Valor: {Valor}]";
+        return $"[Motorista: {Motorista?.Nome}, Veiculo: {Veiculo?.Modelo}, Partida: {DataHoraPartida}, Chegada: {DataHoraChegada}, Status: {Status}, Valor: {Valor}]";
     }
 
     public bool Validate()
