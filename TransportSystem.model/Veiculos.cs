@@ -3,22 +3,24 @@ namespace Modelos;
 public class Veiculo
 {
     public int? Id { get; set; }
-    public string? Nome { get; set; }
-    public string? CPF { get; set; }
-    public string? Telefone { get; set; }
-    public string? Email { get; set; }
+    public string? Marca { get; set; }
+    public string? Modelo { get; set; }
+    public string? Placa { get; set; }
+    public string? Ano { get; set; }
+    public string? Capacidade { get; set; }
 
     public Veiculo()
     {
     }
 
-    public Veiculo(int id, string nome, string cpf, string telefone, string email)
+    public Veiculo(int id, string marca, string modelo, string placa, string ano, string capacidade)
     {
         Id = id;
-        Nome = nome;
-        CPF = cpf;
-        Telefone = telefone;
-        Email = email;
+        Marca = marca;
+        Modelo = modelo;
+        Placa = placa;
+        Ano = ano;
+        Capacidade = capacidade;
     }
 
     public override bool Equals(object? obj)
@@ -28,9 +30,9 @@ public class Veiculo
             return false;
         }
 
-        Passageiro otherPassageiro = (Passageiro)obj;
+        Veiculo otherVeiculo = (Veiculo)obj;
 
-        if (this.Id != otherPassageiro.Id)
+        if (this.Id != otherVeiculo.Id)
         {
             return false;
         }
@@ -45,13 +47,13 @@ public class Veiculo
 
     public override string ToString()
     {
-        return $"[{Nome}, {CPF}, {Telefone}, {Email}]";
+        return $"[{Marca}, {Modelo}, {Placa}, {Ano}, {Capacidade}]";
     }
 
     public bool Validate()
     {
-        var isValid = !string.IsNullOrWhiteSpace(Nome) && !string.IsNullOrWhiteSpace(CPF) &&
-                      !string.IsNullOrWhiteSpace(Telefone) && !string.IsNullOrWhiteSpace(Email);
+        var isValid = !string.IsNullOrWhiteSpace(Marca) && !string.IsNullOrWhiteSpace(Modelo) &&
+                      !string.IsNullOrWhiteSpace(Placa) && Ano != null && !string.IsNullOrWhiteSpace(Capacidade);
         if (!isValid)
         {
             throw new Exception("Dados Inválidos");
