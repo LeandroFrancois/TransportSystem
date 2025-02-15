@@ -1,38 +1,56 @@
 namespace Modelos;
+
 public class Login
 {
-    public Login() {}
+    public int? IdLogin { get; set; }
+    public string? Email { get; set; }
+    public string? Senha { get; set; }
 
-    public Login(string email, string senha)
+    public Login()
     {
+    }
+
+    public Login(int idLogin, string email, string senha)
+    {
+        IdLogin = idLogin;
         Email = email;
         Senha = senha;
     }
 
-    public int? IdLogin { get; set; }
-    public string Email { get; set; }
-    public string Senha { get; set; }
-
-    public override bool Equals(object obj)
+    public override bool Equals(object? obj)
     {
         if (obj == null || GetType() != obj.GetType())
         {
             return false;
         }
 
-        var other = (Login)obj;
+        Login otherLogin = (Login)obj;
 
-        return base.Equals(IdLogin.HasValue && other.IdLogin.HasValue
-                            && IdLogin == other.IdLogin);
+        if (this.IdLogin != otherLogin.IdLogin)
+        {
+            return false;
+        }
+
+        return true;
     }
 
     public override int GetHashCode()
     {
-        return IdLogin.HasValue ? IdLogin.GetHashCode() : 0;
+        return IdLogin.GetHashCode();
     }
 
     public override string ToString()
     {
-        return $"[{IdLogin}, {Email}]";
+        return $"[{Email}]";
+    }
+
+    public bool Validate()
+    {
+        var isValid = !string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Senha);
+        if (!isValid)
+        {
+            throw new Exception("Dados Inválidos");
+        }
+        return true;
     }
 }

@@ -1,29 +1,61 @@
 namespace Modelos;
-public class Veiculo
-{
-    public Veiculo(string placa, string modelo){
-        Placa = placa;
-        Modelo = modelo;
-    }
-    public int IdVeiculo { get; set; }
-    public string Placa { get; set; } = string.Empty;
-    public string Modelo { get; set; } = string.Empty;
-    public int Ano { get; set; }
-    public int Capacidade { get; set; }
-    public StatusVeiculo Status { get; set; }
 
-    public enum StatusVeiculo
+public class Passageiro
+{
+    public int? Id { get; set; }
+    public string? Nome { get; set; }
+    public string? CPF { get; set; }
+    public string? Telefone { get; set; }
+    public string? Email { get; set; }
+
+    public Passageiro()
     {
-        Disponivel,
-        EmViagem,
-        EmManutencao
+    }
+
+    public Passageiro(int id, string nome, string cpf, string telefone, string email)
+    {
+        Id = id;
+        Nome = nome;
+        CPF = cpf;
+        Telefone = telefone;
+        Email = email;
+    }
+
+    public override bool Equals(object? obj)
+    {
+        if (obj == null || GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        Passageiro otherPassageiro = (Passageiro)obj;
+
+        if (this.Id != otherPassageiro.Id)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    public override int GetHashCode()
+    {
+        return Id.GetHashCode();
     }
 
     public override string ToString()
     {
-        return $"[{IdVeiculo}, {Placa}, {Modelo}]";
+        return $"[{Nome}, {CPF}, {Telefone}, {Email}]";
     }
-    
+
+    public bool Validate()
+    {
+        var isValid = !string.IsNullOrWhiteSpace(Nome) && !string.IsNullOrWhiteSpace(CPF) &&
+                      !string.IsNullOrWhiteSpace(Telefone) && !string.IsNullOrWhiteSpace(Email);
+        if (!isValid)
+        {
+            throw new Exception("Dados Inválidos");
+        }
+        return true;
+    }
 }
-
-

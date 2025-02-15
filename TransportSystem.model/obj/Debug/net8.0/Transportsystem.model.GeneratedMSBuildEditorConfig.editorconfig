@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Transportsystem.model
-build_property.ProjectDir = c:\Users\leandro estudo\Videos\TransportSystem\TransportSystem.model\
+build_property.ProjectDir = C:\Users\leandro estudo\Videos\TransportSystem\TransportSystem.model\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
