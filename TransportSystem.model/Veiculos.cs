@@ -1,6 +1,6 @@
 namespace Modelos;
 
-public class Passageiro
+public class Veiculo
 {
     public int? Id { get; set; }
     public string? Nome { get; set; }
@@ -8,11 +8,11 @@ public class Passageiro
     public string? Telefone { get; set; }
     public string? Email { get; set; }
 
-    public Passageiro()
+    public Veiculo()
     {
     }
 
-    public Passageiro(int id, string nome, string cpf, string telefone, string email)
+    public Veiculo(int id, string nome, string cpf, string telefone, string email)
     {
         Id = id;
         Nome = nome;
