@@ -1,5 +1,6 @@
 using System;
 using Modelos;
+using Services;
 
 namespace Register;
 
@@ -10,10 +11,10 @@ public class PassageiroRegister
         var service = new PassageiroService();
         while(true){
             Console.WriteLine("Informe o nome da nova categoria: ");
-            category.Name = Console.ReadLine();
-            if(category.Validate()){
-                service.RegisterCategory(category);
-                return category;
+            passageiro.Name = Console.ReadLine();
+            if(passageiro.Validate()){
+                service.RegisterCategory(passageiro);
+                return passageiro;
             }
         }
     }

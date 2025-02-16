@@ -4,6 +4,77 @@
     "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Console\\TransportSystem.Console.csproj": {}
   },
   "projects": {
+    "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Business\\TransportSystem.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Business\\TransportSystem.Business.csproj",
+        "projectName": "TransportSystem.Business",
+        "projectPath": "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Business\\TransportSystem.Business.csproj",
+        "packagesPath": "C:\\Users\\gt3zi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gt3zi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-android"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-android35.0": {
+            "targetAlias": "net9.0-android",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Console\\TransportSystem.Console.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,6 +98,12 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Business\\TransportSystem.Business.csproj": {
+                "projectPath": "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Business\\TransportSystem.Business.csproj"
+              },
+              "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj": {
+                "projectPath": "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj"
+              },
               "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Persistance\\TransportSystem.Persistance.csproj": {
                 "projectPath": "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.Persistance\\TransportSystem.Persistance.csproj"
               }
