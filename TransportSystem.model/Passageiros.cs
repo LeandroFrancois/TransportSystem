@@ -2,19 +2,17 @@ namespace Modelos;
 
 public class Passageiro
 {
-    public int? Id { get; set; }
+    public int? IdPassageiro { get; set; }
     public string? Nome { get; set; }
     public string? CPF { get; set; }
     public string? Telefone { get; set; }
     public string? Email { get; set; }
 
-    public Passageiro()
-    {
-    }
+    public Passageiro() {}
 
-    public Passageiro(int id, string nome, string cpf, string telefone, string email)
+    public Passageiro(int idPassageiro, string nome, string cpf, string telefone, string email)
     {
-        Id = id;
+        IdPassageiro = idPassageiro;
         Nome = nome;
         CPF = cpf;
         Telefone = telefone;
@@ -30,7 +28,7 @@ public class Passageiro
 
         Passageiro otherPassageiro = (Passageiro)obj;
 
-        if (this.Id != otherPassageiro.Id)
+        if (this.IdPassageiro != otherPassageiro.IdPassageiro)
         {
             return false;
         }
@@ -40,7 +38,7 @@ public class Passageiro
 
     public override int GetHashCode()
     {
-        return Id.GetHashCode();
+        return IdPassageiro.GetHashCode();
     }
 
     public override string ToString()

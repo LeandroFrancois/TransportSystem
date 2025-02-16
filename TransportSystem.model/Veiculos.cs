@@ -2,20 +2,18 @@ namespace Modelos;
 
 public class Veiculo
 {
-    public int? Id { get; set; }
+    public int? IdVeiculo { get; set; }
     public string? Marca { get; set; }
     public string? Modelo { get; set; }
     public string? Placa { get; set; }
     public string? Ano { get; set; }
     public string? Capacidade { get; set; }
 
-    public Veiculo()
-    {
-    }
+    public Veiculo() {}
 
-    public Veiculo(int id, string marca, string modelo, string placa, string ano, string capacidade)
+    public Veiculo(int idVeiculo, string marca, string modelo, string placa, string ano, string capacidade)
     {
-        Id = id;
+        IdVeiculo = idVeiculo;
         Marca = marca;
         Modelo = modelo;
         Placa = placa;
@@ -32,7 +30,7 @@ public class Veiculo
 
         Veiculo otherVeiculo = (Veiculo)obj;
 
-        if (this.Id != otherVeiculo.Id)
+        if (this.IdVeiculo != otherVeiculo.IdVeiculo)
         {
             return false;
         }
@@ -42,7 +40,7 @@ public class Veiculo
 
     public override int GetHashCode()
     {
-        return Id.GetHashCode();
+        return IdVeiculo.GetHashCode();
     }
 
     public override string ToString()

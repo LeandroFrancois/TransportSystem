@@ -9,9 +9,7 @@ public class Motorista
     public DateTime? ValidadeCNH { get; set; }
     public StatusMotorista? Status { get; set; }
 
-    public Motorista()
-    {
-    }
+    public Motorista() {}
 
     public Motorista(int idMotorista, string nome, string cpf, string cnh, DateTime validadeCNH, StatusMotorista status)
     {

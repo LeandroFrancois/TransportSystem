@@ -8,9 +8,7 @@ public class Cliente
     public string? Telefone { get; set; }
     public string? Cpf { get; set; }
 
-    public Cliente()
-    {
-    }
+    public Cliente() {}
 
     public Cliente(int idCliente, string nome, string email, string telefone, string cpf)
     {

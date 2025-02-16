@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ndr+L2xZIHo=",
+  "dgSpecHash": "NetYymd/cGY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leandro estudo\\Videos\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gt3zi\\OneDrive\\Área de Trabalho\\TransportSystem\\TransportSystem.model\\Transportsystem.model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gt3zi\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\gt3zi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\gt3zi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

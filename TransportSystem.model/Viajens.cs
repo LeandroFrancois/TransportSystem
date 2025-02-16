@@ -2,7 +2,7 @@ namespace Modelos;
 
 public class Viagem
 {
-    public int? Id { get; set; }
+    public int? IdViagem { get; set; }
     public Motorista? Motorista { get; set; }
     public Veiculo? Veiculo { get; set; }
     public DateTime? DataHoraPartida { get; set; }
@@ -11,13 +11,11 @@ public class Viagem
     public decimal? Valor { get; set; }
     public ICollection<Passageiro> Passageiros { get; set; } = new List<Passageiro>();
 
-    public Viagem()
-    {
-    }
+    public Viagem() {}
 
-    public Viagem(int id, Motorista motorista, Veiculo veiculo, DateTime dataHoraPartida, DateTime? dataHoraChegada, StatusViagem status, decimal valor)
+    public Viagem(int idViagem, Motorista motorista, Veiculo veiculo, DateTime dataHoraPartida, DateTime? dataHoraChegada, StatusViagem status, decimal valor)
     {
-        Id = id;
+        IdViagem = idViagem;
         Motorista = motorista;
         Veiculo = veiculo;
         DataHoraPartida = dataHoraPartida;
@@ -43,7 +41,7 @@ public class Viagem
 
         Viagem otherViagem = (Viagem)obj;
 
-        if (this.Id != otherViagem.Id)
+        if (this.IdViagem != otherViagem.IdViagem)
         {
             return false;
         }
@@ -53,7 +51,7 @@ public class Viagem
 
     public override int GetHashCode()
     {
-        return Id.GetHashCode();
+        return IdViagem.GetHashCode();
     }
 
     public override string ToString()
