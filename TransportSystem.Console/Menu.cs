@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Threading.Tasks;
+using Register;
 
-namespace TaskManager.UI.ConsoleApp.Menus;
+namespace Menu;
 
 public class PrincipalMenu
 {
