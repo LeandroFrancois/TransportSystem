@@ -9,13 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportSystem.Persistance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportSystem.Console", "TransportSystem.Console\TransportSystem.Console.csproj", "{6545A0AF-C91C-4D35-AA51-0471227BBC5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportSystem.Business", "TransportSystem.Business\TransportSystem.Business.csproj", "{4F88DA81-3C44-4A8E-B930-EA276EF60300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{611030DE-E564-4719-B25E-959EA0A2CAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,12 @@ Global
 		{6545A0AF-C91C-4D35-AA51-0471227BBC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6545A0AF-C91C-4D35-AA51-0471227BBC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6545A0AF-C91C-4D35-AA51-0471227BBC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F88DA81-3C44-4A8E-B930-EA276EF60300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F88DA81-3C44-4A8E-B930-EA276EF60300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F88DA81-3C44-4A8E-B930-EA276EF60300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F88DA81-3C44-4A8E-B930-EA276EF60300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
